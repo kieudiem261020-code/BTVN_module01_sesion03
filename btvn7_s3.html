@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <table border="1" cellpadding ="10" cellspacing ="0" algin ="center">
+            <!-- Tiêu đề form gộp cột-->
+             <thead>
+                <tr>
+                    <th colspan ="2" bgcolor="#9534f" style ="color:white; text-align: center;">
+                        <h2>SỞ THÍCH CỦA BẠN</h2>
+                    </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><label for="full name">Họ và tên:</label></td>
+                            <td><input type="text"id="full name" name="full name" size="30"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="email">Email:</label></td>
+                                <td><input type ="email" id="email" name="email" size ="30"></td>
+                            </tr>
+                            <>
+                                <td> Sở thích: </td>
+                                <!-- Dùng checkbox cho phép chọn nhiều sở thích-->
+                                 <tbody>
+                                    <tr>
+                                        <td><input type="checkbox" id="thethao" name="hobby" value="thethao"><label for="thethao"> Thể thao</label></td>
+                                        <td><input type="checkbox" id="amnhac" name="hobby" value="amnhac"><label for="amnhac"> Âm nhạc</label></td>
+                                        <td><input type="checkbox" id="docsach" name="hobby" value="docsach"><label for="docsach"> Đọc sách</label></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" id="luotweb" name="hobby" value="luotweb"><label for="luotweb"> Lướt web</label></td>
+                                            <td><input type="checkbox" id="choigame" name="hobby" value="choigame"><label for="choigame"> Chơi game</label></td>
+                                            <td><input type="checkbox" id="dienanh" name="hobby" value="dienanh"><label for="dienanh"> Điện ảnh</label></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2" algin="center">
+                                                    <button type="submit"> Gửi lại thông tin</button>
+                                                    <button type="reset"> Nhập lại</button>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+        </table>
+    </form>
+</body>
+</html>
